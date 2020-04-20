@@ -124,16 +124,16 @@ margin-bottom: 30px;
   
   /* Style the back side */
   .flip-card-back {
+	  position: absolute;
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
 	border-radius: 10px;
   }
 .nom{
- position: relative;
+ position:relative;
 	top: 80px;
 	left: auto;
-
 }
 .image{
 	width:300px;
