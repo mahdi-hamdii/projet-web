@@ -1,0 +1,285 @@
+.img_car{
+    height: 550px;
+    border-radius: 15px 15px;
+}
+/* Create a sticky/fixed navbar */
+#navbar {
+    padding: 15px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    width: 100%;
+    z-index: 99;
+	background-color: #122636; 
+	opacity: 0.9;
+	height: 90px;
+	margin-bottom: 50px;
+  }
+
+
+  /* Style the navbar links */
+  #navbar div ul li a {
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: wavy;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 15px;
+  }
+
+  #navbar a img{
+    padding-left: 0;
+    margin-right: 40px;
+    margin-left: 1px;
+  }
+
+		.navbar > div > ul > li:hover {
+			background: #D0D0D0;
+			border-bottom: 5px solid #545454;
+			border-left: 10px solid #939393;
+			border-right: 10px solid #939393;
+			border-top: 5px solid #545454;
+			line-height: 60px;
+			transition: .3s;
+     }
+     
+     .navbar > div > ul > li >div>a:hover {
+			background: #D0D0D0;
+			border-bottom: 5px solid #545454;
+			border-left: 10px solid #939393;
+			border-right: 10px solid #939393;
+			border-top: 5px solid #545454;
+			line-height: 60px;
+			transition: .3s;
+     }
+     .dropdown-menu{
+       background-color: #D0D0D0 !important;
+     }
+
+     
+  .sticky {
+    position: fixed !important;
+    top: 0 !important;
+  }
+header { 
+margin-bottom: 50px;}
+.titre{
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: black;
+	font-family: Arial, sans-serif;
+}
+  
+body {
+	background-color: #d3d7eb;
+}
+.container-fluid{
+align-items: flex-start;
+display: flex;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+	border-radius: 10px;
+  }
+.nom{
+ position: relative;
+	top: 80px;
+	left: auto;
+
+}
+.image{
+	width:300px;
+	height: 250px;
+	border-radius: 10px
+}
+  #carouselExampleIndicators{
+    border: 2px;
+    width: 95% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    
+  }
+
+
+.left{
+  float: left;
+padding-left: 5%;
+}
+.right{
+ float: right;
+ padding-right: 35%;
+}
+
+.container{
+  height: 300px;
+}
+
+
+
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 100px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #122636;
+  color: #b2dbe6;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  border-top: 0;
+opacity: .9;
+}
+
+
+.panel-footer div.row {
+  margin-bottom: 25px;
+}
+#paiement, #address {
+  line-height: 2;
+}
+#paiement > span, #address > span {
+  font-size: 1.3em;
+}
+
+
+*:not(.fas):not(.far) {
+  font-family: Roboto, "Roboto Mono" !important;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.uk-icon>* {
+  transform: translate(0,0);
+}
+svg {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+user agent stylesheet
+svg:not(:root) {
+  overflow: hidden;
+}
+.uk-card-primary.uk-card-body .uk-link, .uk-card-primary.uk-card-body a, .uk-card-primary>:not([class*=uk-card-media]) .uk-link, .uk-card-primary>:not([class*=uk-card-media]) a, .uk-card-secondary.uk-card-body .uk-link, .uk-card-secondary.uk-card-body a, .uk-card-secondary>:not([class*=uk-card-media]) .uk-link, .uk-card-secondary>:not([class*=uk-card-media]) a, .uk-light .uk-link, .uk-light a, .uk-offcanvas-bar .uk-link, .uk-offcanvas-bar a, .uk-overlay-primary .uk-link, .uk-overlay-primary a, .uk-section-primary:not(.uk-preserve-color) .uk-link, .uk-section-primary:not(.uk-preserve-color) a, .uk-section-secondary:not(.uk-preserve-color) .uk-link, .uk-section-secondary:not(.uk-preserve-color) a, .uk-tile-primary:not(.uk-preserve-color) .uk-link, .uk-tile-primary:not(.uk-preserve-color) a, .uk-tile-secondary:not(.uk-preserve-color) .uk-link, .uk-tile-secondary:not(.uk-preserve-color) a {
+  color: rgb(153, 35, 35);
+}
+.uk-icon {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  overflow: visible;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  padding: 0;
+  background-color: transparent;
+  display: inline-block;
+  fill: currentcolor;
+  line-height: 0;
+}
+.uk-link, a {
+  color: #1e87f0;
+  text-decoration: none;
+  cursor: pointer;
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+}
+.uk-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.uk-card-primary.uk-card-body, .uk-card-primary>:not([class*=uk-card-media]), .uk-card-secondary.uk-card-body, .uk-card-secondary>:not([class*=uk-card-media]), .uk-light, .uk-offcanvas-bar, .uk-overlay-primary, .uk-section-primary:not(.uk-preserve-color), .uk-section-secondary:not(.uk-preserve-color), .uk-tile-primary:not(.uk-preserve-color), .uk-tile-secondary:not(.uk-preserve-color) {
+  color: rgba(148, 28, 28, 0.7);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #363058;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-track {
+  background-color: #010f19;
+}
+
+
+#propos p {
+  color: #336e7c;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+ul > #uk-iconnav{
+  color: #336e7c; 
+}
+
+
+/* END FOOTER */
+
+
